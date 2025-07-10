@@ -215,6 +215,58 @@ li {
   color: var(--color-font-grey1);
 }
 
+.info {
+  background-color: var(--color-bg-light-white);
+  padding-top: 15rem;
+}
+.info__container {
+  text-align: center;
+  background: var(--color-white);
+  padding: 5rem 0rem;
+  border-radius: 15px;
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1);
+}
+.info__heading {
+  font-family: var(--font-raleway);
+  font-size: 5rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: var(--color-font-black1);
+}
+.info__subtext {
+  font-size: 1.6rem;
+  color: var(--color-font-grey1);
+  font-weight: 400;
+  padding: 2rem 1rem;
+}
+.info__link {
+  padding-top: 3rem;
+}
+.info__link a {
+  font-family: var(--font-raleway);
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: var(--color-white);
+  background: var(--color-primary);
+  padding: 1rem 3rem;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+.info__link a:hover {
+  color: var(--color-primary);
+  background: var(--color-font-black2);
+}
+.info__banner {
+  padding-top: 5rem;
+  width: 70%;
+  margin: 0 auto;
+}
+.info__banner--img {
+  width: 100%;
+  border-radius: 50px;
+}
+
 .testimonial {
   background-color: var(--color-bg-light-white);
   padding-top: 13rem;

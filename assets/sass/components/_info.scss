@@ -1,1 +1,61 @@
 @use './base' as *;
+
+.info {
+    background-color: var(--color-bg-light-white);
+    padding-top: 15rem;
+
+    &__container {
+        text-align: center;
+        background: var(--color-white);
+        padding: 5rem 0rem;
+        border-radius: 15px;
+        box-shadow: 0px 5px 5px 0px rgb(0, 0, 0, .1);
+    }
+
+    &__heading {
+        font-family: var(--font-raleway);
+        font-size: 5rem;
+        font-weight: 700;
+        text-transform: capitalize;
+        color: var(--color-font-black1);
+    }
+
+    &__subtext {
+        font-size: 1.6rem;
+        color: var(--color-font-grey1);
+        font-weight: 400;
+        padding: 2rem 1rem;
+    }
+
+    &__link {
+        padding-top: 3rem;
+        
+        a {
+            font-family: var(--font-raleway);
+            font-size: 1.6rem;
+            font-weight: 500;
+            text-transform: capitalize;
+            color: var(--color-white);
+            background: var(--color-primary);
+            padding: 1rem 3rem;
+            border-radius: 5px;
+            transition: all .3s;
+
+            &:hover {
+                color: var(--color-primary);
+                background: var(--color-font-black2);
+        }
+        }
+    }
+
+    &__banner {
+        padding-top: 5rem;
+        width: 70%;
+        margin: 0 auto;
+
+        &--img {
+            width: 100%;
+            border-radius: 50px;
+        }
+    }
+}
