@@ -135,7 +135,8 @@ li {
 }
 
 .action {
-  margin-top: 10rem;
+  padding-top: 10rem;
+  background-color: var(--color-bg-light-white);
 }
 .action__container {
   display: flex;
@@ -179,7 +180,8 @@ li {
 }
 
 .productive {
-  margin-top: 10rem;
+  padding-top: 10rem;
+  background-color: var(--color-bg-light-white);
 }
 .productive__container {
   text-align: center;
@@ -211,6 +213,75 @@ li {
   font-weight: 400;
   text-transform: capitalize;
   color: var(--color-font-grey1);
+}
+
+.testimonial {
+  background-color: var(--color-bg-light-white);
+  padding-top: 13rem;
+}
+.testimonial__heading {
+  font-family: var(--font-raleway);
+  font-size: 4.2rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: var(--color-font-black3);
+  text-align: center;
+}
+.testimonial__main {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 3rem;
+  padding-top: 5rem;
+}
+.testimonial__item {
+  background: var(--color-white);
+  padding: 20px 20px;
+  border-radius: 15px;
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.testimonial__item:hover {
+  transform: translateY(-5px);
+}
+.testimonial__item--stars {
+  font-size: 1.6rem;
+  color: var(--color-star);
+  padding: 2rem 0rem;
+}
+.testimonial__item--title {
+  font-size: 2.4rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: var(--color-font-black2);
+}
+.testimonial__item--description {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: var(--color-font-black2);
+  width: 90%;
+  padding: 2rem 0rem;
+}
+.testimonial__person {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.testimonial__person--img {
+  border-radius: 50%;
+}
+.testimonial__person--name {
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: var(--color-font-grey2);
+}
+.testimonial__person--date {
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: var(--color-font-grey3);
 }
 
 /*# sourceMappingURL=style.css.map */

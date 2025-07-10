@@ -1,7 +1,8 @@
 @use './base' as *;
 
 .action {
-    margin-top: 10rem;
+    padding-top: 10rem;
+    background-color: var(--color-bg-light-white);
 
     &__container {
         display: flex;
