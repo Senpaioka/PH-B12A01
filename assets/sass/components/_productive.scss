@@ -1,0 +1,45 @@
+@use './base' as *;
+
+.productive {
+    margin-top: 10rem;
+
+    &__container {
+        text-align: center;
+        background: var(--color-bg-lightblue);
+        border-radius: 20px;
+        padding: 5rem 0rem;
+    }
+
+    &__heading {
+        font-family: var(--font-raleway);
+        font-weight: 700;
+        font-size: 3.8rem;
+        color: var(--color-font-black3);
+        text-transform: capitalize;
+    }
+
+    &__counter {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+        &--item {
+
+        }
+
+        &--maintext {
+            font-family: var(--font-inter);
+            font-size: 8rem;
+            font-weight: 700;
+            color: var(--color-primary);
+        }
+
+        &--subtext {
+            font-family: var(--font-inter);
+            font-size: 2rem;
+            font-weight: 400;
+            text-transform: capitalize;
+            color: var(--color-font-grey1);
+        }
+    }
+}
