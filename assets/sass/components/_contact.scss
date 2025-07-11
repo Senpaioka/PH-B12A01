@@ -1,1 +1,108 @@
 @use './base' as *;
+
+.contact {
+    background-color: var(--color-bg-light-white);
+    padding-top: 13rem;
+    padding-bottom: 10rem;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    &__text {
+        // flex: 1;
+    }
+
+    &__heading {
+        font-family: var(--font-raleway);
+        font-size: 9.7rem;
+        font-weight: 700;
+        text-transform: capitalize;
+        color: var(--color-font-black1);
+    }
+
+    &__form {
+        // flex: 1;
+    }
+
+    &__input {
+        display: block;
+        width: 45rem;
+        height: 5rem;
+        border-radius: 5px;
+        padding: 1rem 2rem;
+        font-size: 1.6rem;
+        color: var(--color-font-black1);
+        border: 1px solid transparent;
+        background: var(--color-white);
+
+        &::placeholder {
+            font-family: var(--font-inter);
+            font-size: 1.6rem;
+            font-weight: 400;
+            color: var(--color-font-grey3);
+        }
+
+        &:focus {
+            border: 1px solid var(--color-primary);
+            outline: none;
+        }
+    }
+
+    &__textarea {
+        display: block;
+        width: 45rem;
+        border-radius: 5px;
+        padding: 1rem 2rem;
+        font-size: 1.6rem;
+        color: var(--color-font-black1);
+        border: 1px solid transparent;
+        resize: none;
+
+        &::placeholder {
+            font-family: var(--font-inter);
+            font-size: 1.6rem;
+            font-weight: 400;
+            color: var(--color-font-grey3);
+        }
+
+        &:focus {
+            border: 1px solid var(--color-primary);
+            outline: none;
+        }
+    }
+
+    &__btn {
+        margin-top: 20px;
+        border: none;
+        background: var(--color-primary);
+        width: 45rem;
+        height: 5rem;
+        border-radius: 5px;
+        font-family: var(--font-raleway);
+        font-size: 1.6rem;
+        font-weight: 700;
+        color: var(--color-white);
+        text-transform: capitalize;
+        cursor: pointer;
+        transition: all .3s;
+
+        &:hover {
+            color: var(--color-primary);
+            background: var(--color-font-black2);
+        }
+    }
+}
+
+label {
+    display: inline-block;
+    font-family: var(--font-inter);
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: var(--color-font-black1);
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
