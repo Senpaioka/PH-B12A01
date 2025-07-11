@@ -1,32 +1,4 @@
 
-/* font settings */
-
-
-// .inter-<uniquifier> {
-//   font-family: "Inter", sans-serif;
-//   font-optical-sizing: auto;
-//   font-weight: <weight>;
-//   font-style: normal;
-// }
-
-
-// .raleway-<uniquifier> {
-//   font-family: "Raleway", sans-serif;
-//   font-optical-sizing: auto;
-//   font-weight: <weight>;
-//   font-style: normal;
-// }
-
-
-// .open-sans-<uniquifier> {
-//   font-family: "Open Sans", sans-serif;
-//   font-optical-sizing: auto;
-//   font-weight: <weight>;
-//   font-style: normal;
-//   font-variation-settings:
-//     "wdth" 100;
-// }
-
 /* variables */
 
 :root {
@@ -65,15 +37,6 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%; /* 1rem = 10px */
-
-
-  @media screen and (max-width: 900px) {
-    font-size: 56.25%; /* 1rem = 9px */
-  }
-
-  @media screen and (max-width: 700px) {
-    font-size: 50%; /* 1rem = 8px */
-  }
 }
 
 
