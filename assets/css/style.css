@@ -425,4 +425,41 @@ label {
   padding-bottom: 10px;
 }
 
+.footer {
+  background: var(--color-white);
+  padding: 10rem 0rem;
+}
+.footer__container {
+  text-align: center;
+}
+.footer__logo {
+  font-family: var(--font-inter);
+  font-size: 10rem;
+  font-weight: 800;
+  color: var(--color-primary);
+  text-transform: uppercase;
+}
+.footer__description {
+  font-family: var(--font-inter);
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: var(--color-font-grey2);
+  width: 50%;
+  margin: 0 auto;
+  padding: 1rem 1rem;
+}
+.footer__link--item {
+  display: inline-block;
+  padding: 1rem 3rem;
+  font-family: var(--font-inter);
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: var(--color-font-grey2);
+  transition: all 0.3s;
+}
+.footer__link--item:hover {
+  color: var(--color-primary);
+}
+
 /*# sourceMappingURL=style.css.map */
